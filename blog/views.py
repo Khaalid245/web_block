@@ -1,6 +1,1 @@
-# blog/views.py
-
-from django.shortcuts import render
-
-def home(request):
-    return render(request, 'blog/home.html')
+from .views import ArticleListCreateView, ArticleDetailView, CommentCreateView
